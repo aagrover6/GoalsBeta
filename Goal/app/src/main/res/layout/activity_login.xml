@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.calpoly.aagrover.goal.LoginActivity"
+    android:background="@drawable/login_light"
+    android:typeface="monospace" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="40sp"
+        android:textColor="@color/colorCharcoal"
+        android:text="GOALS"
+        android:typeface="monospace"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttonDone"
+        android:layout_alignEnd="@+id/buttonDone" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/textView3"
+        android:background="@drawable/logo_next"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toRightOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/theButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:textColor="@color/colorCharcoal"
+        android:background="@drawable/starting_up"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_alignTop="@+id/theButton2"
+        android:layout_toLeftOf="@+id/theButton2"
+        android:layout_toStartOf="@+id/theButton2"
+        android:layout_marginRight="7dp"/>
+
+    <Button
+        android:id="@+id/theButton2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:textColor="@color/colorCharcoal"
+        android:background="@drawable/countdown"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="7dp"/>
+
+    <Button
+        android:id="@+id/theButton3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:textColor="#383f3f"
+        android:background="@drawable/progress"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView9"
+        android:layout_toRightOf="@+id/theButton2"
+        android:layout_toEndOf="@+id/theButton2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap below to learn more."
+        android:id="@+id/textView9"
+        android:typeface="monospace"
+        android:textStyle="italic"
+        android:textColor="@color/colorCharcoal"
+        android:gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/theButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Skip"
+        android:id="@+id/buttonDone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorCharcoal"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:background="@drawable/zero_percent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/textAfterFirst"
+        android:textColor="@color/colorCharcoal"
+        android:typeface="monospace"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_above="@+id/buttonDone"
+        android:layout_below="@+id/theButton" />
+
+
+</RelativeLayout>

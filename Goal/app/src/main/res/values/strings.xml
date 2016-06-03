@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Goals</string>
+    <string name="remove_menuitem">Delete</string>
+    <string name="startGoalInstr">Fill out the goal you want to achieve and the completion date.</string>
+    <string name="hintTypeGoal">Type your goal</string>
+    <string name="hintTypeDate">mm/dd/yyyy</string>
+    <string name="setGoal">Set Goal</string>
+    <string name="days">DAYS</string>
+    <string name="hours">HOURS</string>
+    <string name="mins">MIN</string>
+    <string name="sec">SEC</string>
+</resources>
